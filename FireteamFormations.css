@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $5a5a46;
+    color: #e4e0d1;
+    font-family: Arial, sans-serif; /* Might change this later, closer to order style font. */
+    min-height: 100vh;
+    padding 20px;
+}
+
+#app-container {
+    max-width: 1400px;
+    margin: auto;
+
+}
+
+header{
+    margin-bottom: 20px;
+    border-bottom: 2px solid #3c3c2f;
+    padding-bottom: 10px;
+
+}
+
+main {
+    display: flex;
+    gap: 20px;
+}
+
+#controls {
+    width: 300px;
+    background-color: #3f4338;
+    padding: 20px;
+    border: 2px solid #2d3028;
+
+}
+
+#backyard {
+    flex-grow: 1;
+    height: 700px;
+    background-color: #6d6b56;
+    border: 2px solid #2d3028;
+    position: relative;
+    overflow: hidden;
+}
+
+#battlefield::before {
+    content= "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image:
+        linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+    pointer-events: none;
+}
