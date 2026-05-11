@@ -4,14 +4,21 @@ const columnButton = document.getElementById("column-btn");
 
 const wedgeButton = document.getElementById("wedge-btn");
 
-const skirmisherleftButton = document.getElementById("skirmisher-btn");
+const skirmisherSelect = document.getElementById("skirmisher-select");
+    if (skirmisherSelect.value === "skirmisherLeft") {
+        showSkirmisherLeft();
+    }
 
-const skirmisherrightButton = document.getElementById("skirmisher-btn");
+    else if (skirmisherSelect.value === "skirmisherRight") {}
+        showSkirmisherRight();
 
-const echelonleftButton = document.getElementById("echelon-btn");
 
-const echelonrightButton = document.getElementById("echelon-btn");
+const echelonSelect = document.getElementById("echelon-select");
+        if (skirmisherSelect.value === "echelonLeft") {
+        showEchelonLeftLeft();
+    }
 
+    else if (skirmisherSelect.value === "echelonRight")
 // Marine behavior ? 
 
 const marine1 = document.getElementById("marine1");
@@ -44,13 +51,24 @@ columnButton.addEventListener("click", showColumn);
 
 wedgeButton.addEventListener("click", showWedge);
 
-skirmisherleftButton.addEventListener("click", showSkirmisher);
+skirmisherSelect.addEventListener("change", function() {
+    if (skirmisherSelect.value === "skirmisherLeft") {
+        showSkirmisherLeft();
+    }
 
-skirmisherrightButton.addEventListener("click" , showSkirmisher)
+    else if (skirmisherSelect.value === "skirmisherRight") {}
+        showSkirmisherRight();
+});
 
-echelonleftButton.addEventListener("click" , showSkirmisher)
+echelonSelect.addEventListener("change", function() {
+    if (skirmisherSelect.value === "echelonLeft") {
+        showSkirmisherLeft();
+    }
 
-echelonrightButton.addEventListener("click" , showSkirmisher)
+    else if (skirmisherSelect.value === "echelonRight") {}
+        showSkirmisherRight();
+});
+
 
 function showWedge() {
 
