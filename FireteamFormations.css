@@ -58,3 +58,18 @@ main {
     background-size: 40px 40px;
     pointer-events: none;
 }
+
+.marine {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #556b4f;
+    border: 2px solid #d6d2c4;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    transition: all 0.7s ease;
+
+}

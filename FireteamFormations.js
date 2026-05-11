@@ -8,17 +8,41 @@ const skirmisherButton = document.getElementById("skirmisher-btn");
 
 const echelonButton = document.getElementById("echelon-btn");
 
-const formations = {
-    column: [
-        {role: "Team Leader", x: 50, y: 15},
-        {role: "Automatic Rifleman", x: 50, y: 35},
-        {role: "Grenadier", x:50, y: 55},
-        {role: "Rifleman", x: 50, y: 75}
-    ] 
-};
+// Marine behavior ? 
 
-function renderFormation(column) {
+const marine1 = document.getElementById("marine1");
+
+const marine2 = document.getElementById("marine2");
+
+const marine3 = document.getElementById("marine3");
+
+const marine4 = document.getElementById("marine4");
+
+function showColumn() {
+
+    marine1.style.left = "50%";
+    marine1.style.top = "15%";
+
+    marine2.style.left = "50%";
+    marine2.style.top = "35%";
+
+    marine3.style.left = "50%";
+    marine3.style.top = "55%";
+
+    marine4.style.left = "50%";
+    marine4.style.top = "75%";
 
 }
 
-console.log("JavaScript connected succesfully");
+
+
+
+
+
+
+
+
+
+
+
+showColumn();
