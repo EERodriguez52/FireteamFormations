@@ -7,9 +7,7 @@ const wedgeButton = document.getElementById("wedge-btn");
 const skirmisherSelect = document.getElementById("skirmisher-select");
 
 const echelonSelect = document.getElementById("echelon-select");
-    
-// Marine behavior ? 
-
+     
 const marine1 = document.getElementById("marine1");
 
 const marine2 = document.getElementById("marine2");
@@ -17,6 +15,8 @@ const marine2 = document.getElementById("marine2");
 const marine3 = document.getElementById("marine3");
 
 const marine4 = document.getElementById("marine4");
+
+const formationDescription = document.getElementById("formation-description");
 
 function showColumn() {
 
@@ -31,6 +31,13 @@ function showColumn() {
 
     marine4.style.left = "70%";
     marine4.style.top = "15%";
+
+    formationDescription.textContent = 
+    
+    `The Column formation permits fast,
+     controlled movement, while providing fire and maneuverability to the flanks.
+     While rapid movement is supported, this formation is vulnerable to the front and rear.
+     Ideal dispersion between Marines is 10-15 meters.`
 
 }
 
@@ -65,18 +72,23 @@ echelonSelect.addEventListener("change", function() {
 
 function showWedge() {
 
-    marine1.style.left = "50%";
-    marine1.style.top = "15%";
+    marine1.style.left = "70%";
+    marine1.style.top = "40%";
 
     marine2.style.left = "30%";
     marine2.style.top = "40%";
 
-    marine3.style.left = "70%";
-    marine3.style.top = "40%";
+    marine3.style.left = "50%";
+    marine3.style.top = "15%";
 
     marine4.style.left = "50%";
     marine4.style.top = "65%";
 
+    formationDescription.textContent = 
+    `The fireteam weddge is used to provide all around security.
+    This formation allows for a rapid transition to react to enemy contact.
+    The wedge is most useful when moving through open terrain. 
+    The Team Leader and Grenadier postitions are interchangable.`
 }
 
 function showSkirmisherLeft() {
@@ -93,6 +105,10 @@ function showSkirmisherLeft() {
     marine4.style.left = "80%";
     marine4.style.top = "20%";
 
+    formationDescription.textContent = 
+    `The skirmisher is most commonly used when enemy contact is anticipated. 
+    This formation provides maximum firepower to the front and allows for a rapid
+    transition to fire and maneuver.`
 }
 function showSkirmisherRight() {
 
@@ -108,6 +124,10 @@ function showSkirmisherRight() {
     marine4.style.left = "20%";
     marine4.style.top = "20%";
 
+    formationDescription.textContent = 
+    `The skirmisher is most commonly used when enemy contact is anticipated. 
+    This formation provides maximum firepower to the front and allows for a rapid
+    transition to fire and maneuver.`
 }
 
 function showEchelonLeft() {
@@ -124,6 +144,9 @@ function showEchelonLeft() {
     marine4.style.left = "75%";
     marine4.style.top = "30%";
 
+    formationDescription.textContent = 
+    `Similar to the column, the echelon staggers Marines so they may provide fire to
+    the front or the flanks. `
 }function showEchelonRight() {
 
     marine1.style.left = "40%";
