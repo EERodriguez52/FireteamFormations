@@ -121,8 +121,8 @@ function showEchelonLeft() {
     marine3.style.left = "35%";
     marine3.style.top = "50%";
 
-    marine4.style.left = "80%";
-    marine4.style.top = "25%";
+    marine4.style.left = "75%";
+    marine4.style.top = "30%";
 
 }function showEchelonRight() {
 
@@ -135,7 +135,7 @@ function showEchelonLeft() {
     marine3.style.left = "65%";
     marine3.style.top = "50%";
 
-    marine4.style.left = "20%";
-    marine4.style.top = "25%";
+    marine4.style.left = "25%";
+    marine4.style.top = "30%";
 
 }
