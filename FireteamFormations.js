@@ -52,12 +52,12 @@ skirmisherSelect.addEventListener("change", function() {
 });
 
 echelonSelect.addEventListener("change", function() {
-    if (skirmisherSelect.value === "echelonLeft") {
-        showSkirmisherLeft();
+    if (echelonSelect.value === "echelonLeft") {
+        showEchelonLeft();
     }
 
-    else if (skirmisherSelect.value === "echelonRight") {
-        showSkirmisherRight();
+    else if (echelonSelect.value === "echelonRight") {
+        showEchelonRight();
     
     }
 });
