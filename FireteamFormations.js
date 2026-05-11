@@ -4,9 +4,13 @@ const columnButton = document.getElementById("column-btn");
 
 const wedgeButton = document.getElementById("wedge-btn");
 
-const skirmisherButton = document.getElementById("skirmisher-btn");
+const skirmisherleftButton = document.getElementById("skirmisher-btn");
 
-const echelonButton = document.getElementById("echelon-btn");
+const skirmisherrightButton = document.getElementById("skirmisher-btn");
+
+const echelonleftButton = document.getElementById("echelon-btn");
+
+const echelonrightButton = document.getElementById("echelon-btn");
 
 // Marine behavior ? 
 
@@ -20,16 +24,16 @@ const marine4 = document.getElementById("marine4");
 
 function showColumn() {
 
-    marine1.style.left = "50%";
+    marine1.style.left = "30%";
     marine1.style.top = "15%";
 
-    marine2.style.left = "50%";
+    marine2.style.left = "75%";
     marine2.style.top = "35%";
 
-    marine3.style.left = "50%";
+    marine3.style.left = "30%";
     marine3.style.top = "55%";
 
-    marine4.style.left = "50%";
+    marine4.style.left = "75%";
     marine4.style.top = "75%";
 
 }
@@ -40,7 +44,76 @@ columnButton.addEventListener("click", showColumn);
 
 wedgeButton.addEventListener("click", showWedge);
 
+skirmisherleftButton.addEventListener("click", showSkirmisher);
+
+skirmisherrightButton.addEventListener("click" , showSkirmisher)
+
+echelonleftButton.addEventListener("click" , showSkirmisher)
+
+echelonrightButton.addEventListener("click" , showSkirmisher)
+
 function showWedge() {
+
+    marine1.style.left = "50%";
+    marine1.style.top = "15%";
+
+    marine2.style.left = "30%";
+    marine2.style.top = "40%";
+
+    marine3.style.left = "70%";
+    marine3.style.top = "40%";
+
+    marine4.style.left = "50%";
+    marine4.style.top = "65%";
+
+}
+
+function showSkirmisherLeft() {
+
+    marine1.style.left = "50%";
+    marine1.style.top = "15%";
+
+    marine2.style.left = "30%";
+    marine2.style.top = "40%";
+
+    marine3.style.left = "70%";
+    marine3.style.top = "40%";
+
+    marine4.style.left = "50%";
+    marine4.style.top = "65%";
+
+}
+function showSkirmisherRight() {
+
+    marine1.style.left = "50%";
+    marine1.style.top = "15%";
+
+    marine2.style.left = "30%";
+    marine2.style.top = "40%";
+
+    marine3.style.left = "70%";
+    marine3.style.top = "40%";
+
+    marine4.style.left = "50%";
+    marine4.style.top = "65%";
+
+}
+
+function showEchelonLeft() {
+
+    marine1.style.left = "50%";
+    marine1.style.top = "15%";
+
+    marine2.style.left = "30%";
+    marine2.style.top = "40%";
+
+    marine3.style.left = "70%";
+    marine3.style.top = "40%";
+
+    marine4.style.left = "50%";
+    marine4.style.top = "65%";
+
+}function showEchelonRight() {
 
     marine1.style.left = "50%";
     marine1.style.top = "15%";
