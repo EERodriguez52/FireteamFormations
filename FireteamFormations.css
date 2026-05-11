@@ -41,11 +41,22 @@ main {
 #backyard {
     flex-grow: 1;
     height: 700px;
-    background-color: #6d6b56;
-    border: 2px solid #2d3028;
-    position: relative;
-    overflow: hidden;
-}
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.08),
+        rgba(0,0,0,0.08)
+    ),
+
+    linear-gradient(
+        135deg,
+        #6d6b56 0%,
+        #73705c 50%,
+        #64624f 100%
+    );
+        border: 2px solid #2d3028;
+        position: relative;
+        overflow: hidden;
+    }
 
 #backyard::before {
     content: "";
@@ -94,5 +105,45 @@ select {
     color: white;
     border: 2px solid #2d3028;
     font-size: 16px;
+
+}
+
+.dirt-patch {
+
+    position: absolute;
+
+    background-color: rgba(0,0,0,0.08);
+
+    border-radius: 50%;
+
+}
+
+.patch1 {
+
+    width: 200px;
+    height: 100px;
+
+    left: 15%;
+    top: 20%;
+
+}
+
+.patch2 {
+
+    width: 250px;
+    height: 120px;
+
+    right: 10%;
+    bottom: 15%;
+
+}
+
+.patch3 {
+
+    width: 150px;
+    height: 80px;
+
+    left: 45%;
+    top: 60%;
 
 }
