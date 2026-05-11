@@ -45,8 +45,10 @@ skirmisherSelect.addEventListener("change", function() {
         showSkirmisherLeft();
     }
 
-    else if (skirmisherSelect.value === "skirmisherRight") {}
+    else if (skirmisherSelect.value === "skirmisherRight") {
         showSkirmisherRight();
+
+    }
 });
 
 echelonSelect.addEventListener("change", function() {
@@ -54,8 +56,10 @@ echelonSelect.addEventListener("change", function() {
         showSkirmisherLeft();
     }
 
-    else if (skirmisherSelect.value === "echelonRight") {}
+    else if (skirmisherSelect.value === "echelonRight") {
         showSkirmisherRight();
+    
+    }
 });
 
 
