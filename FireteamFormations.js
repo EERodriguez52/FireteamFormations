@@ -5,20 +5,9 @@ const columnButton = document.getElementById("column-btn");
 const wedgeButton = document.getElementById("wedge-btn");
 
 const skirmisherSelect = document.getElementById("skirmisher-select");
-    if (skirmisherSelect.value === "skirmisherLeft") {
-        showSkirmisherLeft();
-    }
-
-    else if (skirmisherSelect.value === "skirmisherRight") {}
-        showSkirmisherRight();
-
 
 const echelonSelect = document.getElementById("echelon-select");
-        if (skirmisherSelect.value === "echelonLeft") {
-        showEchelonLeftLeft();
-    }
-
-    else if (skirmisherSelect.value === "echelonRight")
+    
 // Marine behavior ? 
 
 const marine1 = document.getElementById("marine1");
