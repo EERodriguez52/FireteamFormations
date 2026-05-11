@@ -9,3 +9,8 @@ Proposal
 As proposed, I was able to deliver a product that places "Marines" onto the "backyard"
 and using CSS and JavaScript, have them move to their corresponding position in each formation. Positions within the fireteam are displayed, as they occupy different positions in each formation. Below the formation selection, infromation regarding each formation and their
 best employment is provided.
+
+Credit
+------
+Throughout the development of this project I referred to WC3 Schools, the teachings
+of Eric Pogue, as well as ChatGPT to help debug and when my creativity ran dry. I also pulled from Marine Corps Reference Publication 3-10A.4 "Marine Rifle Squad".
