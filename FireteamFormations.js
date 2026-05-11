@@ -34,15 +34,24 @@ function showColumn() {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
 showColumn();
+
+columnButton.addEventListener("click", showColumn);
+
+wedgeButton.addEventListener("click", showWedge);
+
+function showWedge() {
+
+    marine1.style.left = "50%";
+    marine1.style.top = "15%";
+
+    marine2.style.left = "30%";
+    marine2.style.top = "40%";
+
+    marine3.style.left = "70%";
+    marine3.style.top = "40%";
+
+    marine4.style.left = "50%";
+    marine4.style.top = "65%";
+
+}
