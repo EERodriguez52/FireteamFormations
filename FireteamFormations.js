@@ -112,30 +112,30 @@ function showSkirmisherRight() {
 
 function showEchelonLeft() {
 
-    marine1.style.left = "55%";
-    marine1.style.top = "35%";
+    marine1.style.left = "65%";
+    marine1.style.top = "65%";
 
     marine2.style.left = "20%";
-    marine2.style.top = "15%";
+    marine2.style.top = "85%";
 
-    marine3.style.left = "45%";
+    marine3.style.left = "35%";
     marine3.style.top = "50%";
 
     marine4.style.left = "80%";
-    marine4.style.top = "75%";
+    marine4.style.top = "25%";
 
 }function showEchelonRight() {
 
     marine1.style.left = "35%";
-    marine1.style.top = "35%";
+    marine1.style.top = "65%";
 
     marine2.style.left = "70%";
-    marine2.style.top = "15%";
+    marine2.style.top = "85%";
 
     marine3.style.left = "60%";
     marine3.style.top = "50%";
 
     marine4.style.left = "20%";
-    marine4.style.top = "75%";
+    marine4.style.top = "25%";
 
 }
