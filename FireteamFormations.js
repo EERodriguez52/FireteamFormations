@@ -82,31 +82,31 @@ function showWedge() {
 function showSkirmisherLeft() {
 
     marine1.style.left = "60%";
-    marine1.style.top = "20%";
+    marine1.style.top = "60%";
 
     marine2.style.left = "20%";
-    marine2.style.top = "20%";
+    marine2.style.top = "60%";
 
     marine3.style.left = "40%";
-    marine3.style.top = "60%";
+    marine3.style.top = "20%";
 
     marine4.style.left = "80%";
-    marine4.style.top = "60%";
+    marine4.style.top = "20%";
 
 }
 function showSkirmisherRight() {
 
-    marine1.style.left = "50%";
-    marine1.style.top = "15%";
+    marine1.style.left = "40%";
+    marine1.style.top = "60%";
 
-    marine2.style.left = "30%";
-    marine2.style.top = "40%";
+    marine2.style.left = "80%";
+    marine2.style.top = "60%";
 
-    marine3.style.left = "70%";
-    marine3.style.top = "40%";
+    marine3.style.left = "60%";
+    marine3.style.top = "20%";
 
-    marine4.style.left = "50%";
-    marine4.style.top = "65%";
+    marine4.style.left = "20%";
+    marine4.style.top = "20%";
 
 }
 
