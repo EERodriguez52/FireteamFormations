@@ -20,10 +20,10 @@ const marine4 = document.getElementById("marine4");
 
 function showColumn() {
 
-    marine1.style.right = "70%";
+    marine1.style.left = "30%";
     marine1.style.top = "35%";
 
-    marine2.style.right = "70%";
+    marine2.style.left = "30%";
     marine2.style.top = "75%";
 
     marine3.style.left = "70%";
